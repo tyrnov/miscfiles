@@ -1,0 +1,166 @@
+#wrapper {
+  background: black;
+}
+
+input.search-form-fieldset-input {
+  color: #000;
+}
+
+input.search-form-fieldset-input::-webkit-input-placeholder {
+  color: rgba(0,0,0,0);
+}
+
+.search-form-fieldset {
+  background: #FFF;
+}
+
+button.searchForm-action-button {
+  color: #000;
+}
+
+button.searchForm-toggle-advanced:hover:hover {
+  background: #CECECE;
+}
+
+conversation-view {
+  background-color: white;
+}
+
+section.pm_opensans.sidebar {
+  background: #000;
+}
+
+header#pm_header-desktop {
+  background: #000;
+}
+
+#pm_header-desktop a.logo {
+  background-color: #000;
+}
+
+#pm_header-desktop ul.navigation > li.active {
+  box-shadow: 0 5px 0 0 #FFF inset;
+}
+
+a.compose.pm_button.primary {
+  background-color: green;
+}
+
+a.compose.pm_button.primary:hover {
+  background-color: #00a500;
+  border-color: green;
+}
+
+body .conversation.marked::before {
+  background-color: rgba(0,0,0,0);
+}
+
+body #conversation-list-rows .conversation {
+  color: #B3B3B3;
+  background: #1F1F1F;
+  font-size: 12px;
+  height: 27px;
+  border-bottom: 1px solid #2A2A2A;
+}
+
+body #conversation-list-rows .conversation.read {
+  background: #040404;
+}
+
+.conversation .subject-text {
+  color: #B3B3B3;
+}
+
+.conversation .customCheckbox-mask.customMaskInput-mask {
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0);
+  border-color: #EEE;
+}
+
+.conversation .customCheckbox-input:checked+.customCheckbox-mask {
+  background-color: rgba(0,0,0,0);
+  border-color: #EEE;
+}
+
+#pm_toolbar-desktop > div.toolBar-select-all.elements-selector .customCheckbox-mask.customMaskInput-mask {
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0);
+  border-color: #EEE;
+}
+
+#pm_toolbar-desktop div.toolBar-select-all.elements-selector .fa-angle-down {
+ color: #FFF;
+}
+
+#pm_toolbar-desktop {
+  background-color: black;
+  border-top: 1px solid #ACB0BF;
+}
+
+ #pm_toolbar-desktop .pm_buttons {
+  background: none;
+  border: none;
+  margin: 1px;
+}
+
+#pm_toolbar-desktop .pm_buttons a:hover {
+  background-color: #636363;
+}
+
+#pm_toolbar-desktop .pm_buttons a {
+  color: #CCC;
+  background-color: #2F2F2F;
+  margin: 2px;
+  border: none;
+  border-radius: 2px !important;
+}
+
+.pm_buttons.starButton {
+  background-color: rgba(0,0,0,0);
+}
+
+.pm_buttons .pm_buttons:not(:first-of-type), .pm_buttons>* {
+  border: 0;
+}
+
+input.search-form-fieldset-input::placeholder {
+  opacity: 0;
+}
+
+body #conversation-list-rows .conversation .subject .pm_labels {
+  background: none;
+}
+
+body #conversation-list-rows .conversation.read .subject .pm_labels {
+  background: none;
+}
+
+body #conversation-list-rows .conversation .subject .pm_labels label {
+  background: none;
+}
+
+body #conversation-list-rows .conversation.read .subject .pm_labels label {
+  background: none;
+}
+
+.pm_labels label {
+  box-shadow: none;
+}
+
+.conversation.read .pm_labels label {
+  box-shadow: none;
+}
+
+.labelsElement-label:not(:first-of-type) {
+  max-width: none;
+  padding-right: 6.4px;
+  overflow: hidden;
+  border-left-width: 2px !important;
+  border-radius: 3px;
+}  
